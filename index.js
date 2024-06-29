@@ -3,7 +3,7 @@ const EventEmitter = require('events');
 const io = require("socket.io")(3003, {
 	cors: {
 		origin: [
-			'http://localhost:3000',
+			'http://85.234.106.173:3000',
 		]
 	}
 });
