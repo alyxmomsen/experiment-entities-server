@@ -1,0 +1,23 @@
+econst express = require('express');
+
+const app = express();
+
+app.get('/' , async (res , req) => {
+	
+				res();
+		} , 1000 * 60 * 3)
+	});
+
+	req.send('response after 5 minutes');
+}
+);
+
+
+const PORT = 3030 ;
+
+app.listen(PORT , () => {
+
+	console.log('server running on port = ' + PORT);
+}
+);
+
